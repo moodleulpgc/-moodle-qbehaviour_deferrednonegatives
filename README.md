@@ -47,9 +47,9 @@ from one to five stars, with an optional comment.
 https://github.com/moodleulpgc/moodle-qbehaviour_deferrednonegatives
 
 ## Contributing ##
-This plugin is based on qbehaviour_deferredallnothing by Daniel Thies 2015 
-All original files are copyright Enrique Castro @ULPGC 
-and are licensed under the included GPL 3
+This plugin is based on qbehaviour_deferredallnothing by Daniel Thies 2015. <br />
+All original files are copyright Enrique Castro @ULPGC. <br />
+and are licensed under the included GPL 3.
 
 Any type of contribution, suggestions, feature request is welcome. 
 Please create an issue in GitHub to discuss before doing a pull request.
