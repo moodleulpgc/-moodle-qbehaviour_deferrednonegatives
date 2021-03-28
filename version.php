@@ -35,4 +35,4 @@ $plugin->dependencies = array(
 );
 
 $plugin->maturity  = MATURITY_STABLE;
-$plugin->release  = '2021032500';
+$plugin->release   = '1.0 for Moodle 3.5+ ';
