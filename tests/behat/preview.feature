@@ -28,7 +28,7 @@ Feature: Preview a Multiple choice question with Deferred all or nothing behavio
   Scenario: Preview a Multiple choice question and submit a partially correct response.
     When I choose "Preview" action for "Multi-choice-001" in the question bank
     And I switch to "questionpreview" window
-    And I set the field "How questions behave" to "Deferred feedback (all or nothing)"
+    And I set the field "How questions behave" to "Deferred feedback (no negatives)"
     And I press "Start again with these options"
     And I click on "One" "text"
     And I click on "Two" "text"
@@ -43,7 +43,7 @@ Feature: Preview a Multiple choice question with Deferred all or nothing behavio
   Scenario: Preview a Multiple choice question and submit a correct response.
     When I choose "Preview" action for "Multi-choice-001" in the question bank
     And I switch to "questionpreview" window
-    And I set the field "How questions behave" to "Deferred feedback (all or nothing)"
+    And I set the field "How questions behave" to "Deferred feedback (no negatives)"
     And I press "Start again with these options"
     And I click on "One" "text"
     And I click on "Three" "text"

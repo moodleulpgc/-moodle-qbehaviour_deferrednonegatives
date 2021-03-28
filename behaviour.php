@@ -20,6 +20,7 @@
  * @package    qbehaviour
  * @subpackage deferrednonegatives
  * @copyright  2021 Enrique Castro @ULPGC 
+ * @copyright based on deferredallnothing by Daniel Thies 2015 dthies@ccal.edu
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -42,8 +43,8 @@ class qbehaviour_deferrednonegatives extends qbehaviour_deferredfeedback {
     public function process_finish(question_attempt_pending_step $pendingstep) {
         $keep = parent::process_finish($pendingstep);
         $fraction = $pendingstep->get_fraction();
-        if ($keep == question_attempt::KEEP &&
-                $fraction != null && ($fraction < 0) {
+        if (($keep == question_attempt::KEEP) &&
+                ($fraction != null) && ($fraction < 0)) {
             $pendingstep->set_fraction(0);
             $pendingstep->set_state(question_state::$gradedwrong);
         }

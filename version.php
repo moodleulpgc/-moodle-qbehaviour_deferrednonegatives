@@ -20,6 +20,7 @@
  * @package    qbehaviour
  * @subpackage deferrednonegatives
  * @copyright  2021 Enrique Castro @ULPGC 
+ * @copyright based on deferredallnothing by Daniel Thies 2015 dthies@ccal.edu 
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
