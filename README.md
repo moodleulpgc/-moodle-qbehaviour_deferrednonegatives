@@ -7,7 +7,7 @@ If the question marking is negative then it is discarded and set to cero (0).
 ## What does this plugin do
 
 Negative partial grading will take place within a question (e.g. if several 
-answers are allowed), but each question can have only o or positive fractional 
+answers are allowed), but each question can have only cero (0) or positive fractional 
 grade. Negative marks are not carried to the whole quiz grade. 
 It will work with a variety of question types that normally produce negative 
 credit for wrong responses.
