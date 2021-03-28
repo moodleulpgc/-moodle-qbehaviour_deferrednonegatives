@@ -1,17 +1,3 @@
-qbehaviour_deferrednonegatives
-=================
-
-This is a question behaviour for Moodle Quiz that forces all questions to 
-be graded with only positive fractional grades using deferred feedback mode. 
-
-
-Copy this directory to question/behaviour/deferrednonegatives in Moodle
-director. Login as admin to complete plugin installation.  Then choose
-this behaviour while editng quiz settings. All questions in the quiz
-will always receive zero or maximum marks when graded.
-
-
-
 # Deferred NO negatives question behaviour
 
 This is a question behaviour for Moodle Quiz that forces all questions to 
@@ -61,7 +47,7 @@ from one to five stars, with an optional comment.
 https://github.com/moodleulpgc/moodle-qbehaviour_deferrednonegatives
 
 ## Contributing ##
-This plugin is based on qbehaviour_deferredallnothing by Daniel Thies 2015
+This plugin is based on qbehaviour_deferredallnothing by Daniel Thies 2015 
 All original files are copyright Enrique Castro @ULPGC 
 and are licensed under the included GPL 3
 
